@@ -1,4 +1,7 @@
-import 'package:timezone/timezone.dart';
+//La librairie des timezones
+import 'package:timezone/timezone.dart' as tz;
+//La base de données des timezones
+import 'package:timezone/data/latest.dart' as tz;
 
 void main() {
   //Initialiser la base

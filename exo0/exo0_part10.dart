@@ -20,7 +20,6 @@ void main() {
 }
 
 // FONCTIONS
-
 // Génère une liste de nombres aléatoires.
 List<int> generateRandomNumbers(int count, int min, int max) {
   Random rand = Random();
