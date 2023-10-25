@@ -60,6 +60,12 @@ int generateResultPart3(List numbers, int min, int max) {
     }
   }
 
+  // final range = numbers.where((number) => {
+  //   return number >= min && number <= max;
+  // });
+
+  // return range.reduce((value, elment) => value + element);
+
   return sum;
 }
 
